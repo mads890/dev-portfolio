@@ -1,0 +1,85 @@
+.not-found {
+    display: grid;
+    grid-template-columns: 65vw 35vw;
+    grid-template-rows: 35vh 20vh 50vh 20vh;
+}
+
+.tln {
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+}
+
+.pink-line-tln {
+    position: absolute;
+    left: 35vw;
+    background-color: #FF86C8;
+    height: 50vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.peach-line-tln {
+    position: absolute;
+    left: 20vw;
+    background-color: #FFBF81;
+    height: 120vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.yellow-line-tln {
+    position: absolute;
+    left: 50vw;
+    background-color: #FFDC5E;
+    height: 70vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.magenta-line-tln {
+    position: absolute;
+    left: 5vw;
+    background-color: #FF69EB;
+    height: 80vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.nf-text {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 15vh;
+}
+
+.nf-projects {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 25vw;
+}
+
+.brn {
+    grid-column: 2;
+    grid-row: 3;
+    position: relative;
+}
+
+.peach-line-brn {
+    position: absolute;
+    left: 20vw;
+    bottom: -10vh;
+    background-color: #FFBF81;
+    height: 105vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.coral-line-brn {
+    position: absolute;
+    left: 5vw;
+    bottom: -30vh;
+    background-color: #FFA3A5;
+    height: 80vh;
+    width: 3px;
+    z-index: -1;
+}

@@ -1,0 +1,165 @@
+header {
+    text-align: center;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trp {
+    position: relative;
+}
+
+.pink-line-trp {
+    position: absolute;
+    left: 65vw;
+    top: -5vh;
+    background-color: #FF86C8;
+    height: 70vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.peach-line-trp {
+    position: absolute;
+    left: 80vw;
+    top: -5vh;
+    background-color: #FFBF81;
+    height: 190vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.yellow-line-trp {
+    position: absolute;
+    left: 50vw;
+    top: -5vh;
+    background-color: #FFDC5E;
+    height: 55vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.magenta-line-trp {
+    position: absolute;
+    left: 95vw;
+    top: -5vh;
+    background-color: #FF69EB;
+    height: 105vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.blp {
+    position: relative;
+}
+
+.peach-line-blp {
+    position: absolute;
+    top: -50vh;
+    left: 15vw;
+    background-color: #FFBF81;
+    height: 140vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.coral-line-blp {
+    position: absolute;
+    top: -20vh;
+    left: 25vw;
+    background-color: #FFA3A5;
+    height: 180vh;
+    width: 3px;
+    z-index: -1;
+}
+
+.project-img {
+    width: 20vw;
+    height: 20vw;
+    margin-right: 7vw;
+    margin-left: 10vw;
+    border: 3px solid #FFDC5E;
+}
+
+.oberman {
+    border: 3px solid #FF86C8;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.project-box h1 {
+    font-size: 6vh;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.project-box h2 {
+    font-size: 1.5vh;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.project-box p {
+    font-size: 2vh;
+}
+
+.project-box-right {
+    display: inline-block;
+}
+
+.project-box-right img {
+    margin-left: 7vw;
+}
+
+.right-al {
+    text-align: right;
+}
+
+.right-box {
+    position: relative;
+}
+
+.crew-button {
+    border: 5px solid #FEBF81;
+    transition: all 0.5s ease;
+  }
+  
+.crew-button:hover {
+    background-color: #FEBF81;
+    color: white;
+}
+  
+.oberman-button {
+    border: 5px solid #FF69EB;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s ease;
+}
+  
+.oberman-button:hover {
+    background-color: #FF69EB;
+    color: white;
+}
+  
+.salama-button {
+    border: 5px solid #FFA3A5;
+    transition: all 0.5s ease;
+}
+  
+.salama-button:hover {
+    background-color: #FFA3A5;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 5vh;;
+}
