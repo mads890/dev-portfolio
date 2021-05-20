@@ -20,7 +20,7 @@ function Projects() {
                 <div className='peach-line-blp'></div>
             </div>
             <div className='project-box'>
-                <img src='images/crew.png' alt='the words join crew with three diagonal lines underneath' className='project-img' />
+                <img src='./images/crew.png' alt='the words join crew with three diagonal lines underneath' className='project-img' />
                 <ButtonBox buttonFor='crew'>
                     <h1 className='pink'>Crew</h1>
                     <h2><b>Front End: React - API: Ruby on Rails - Database: Postgres</b></h2>
@@ -34,12 +34,12 @@ function Projects() {
                             <h1 className='coral'>Oberman & Partners</h1>
                             <p>A New Kind of Ad Agency.</p>
                         </ButtonBox>
-                        <img src='images/oberman.png' alt='the words oberman and partners' className='project-img oberman' />
+                        <img src='./images/oberman.png' alt='the words oberman and partners' className='project-img oberman' />
                     </div>
             </div>
             </div>
             <div className='project-box'>
-                <img src='images/salama.png' alt='outstretched hands holding Africa over the words salama home' className='project-img' />
+                <img src='./images/salama.png' alt='outstretched hands holding Africa over the words salama home' className='project-img' />
                 <ButtonBox buttonFor='salama'>
                     <h1 className='magenta'>Salama Home</h1>
                     <p>Non-Profit Home for Children in Tanzania.</p>
