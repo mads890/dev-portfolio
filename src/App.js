@@ -19,17 +19,17 @@ function App() {
         <Switch>
           <Route
             exact
-            path={'/'}
+            path={'/dev-portfolio/'}
             component={HomePage}
           />
           <Route
             exact
-            path={'/about'}
+            path={'/dev-portfolio/about'}
             component={AboutPage}
           />
           <Route
             exact
-            path={'/projects'}
+            path={'/dev-portfolio/projects'}
             component={Projects}
           />
           <Route component={NotFound} />
