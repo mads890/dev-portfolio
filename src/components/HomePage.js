@@ -18,7 +18,7 @@ function HomePage() {
                     <p>I’m a Web Developer who loves the challenge of connecting complex infrastructure with captivating design.</p>
                 </ButtonBox>
             </div>
-            <img src='http://www.northhavennews.com/wp-content/uploads/2014/04/cricket-salsa.jpg' alt='me eating a chip with cricket salsa' className='bio-pic' id='biopic' />
+            <img src='./images/mountaineer.jpg' alt='me standing on a rock facing away from the camera' className='bio-pic' id='biopic' />
             <div className='clh'>
                 <div className='peach-line-clh'></div>
                 <div className='coral-line-clh'></div>
